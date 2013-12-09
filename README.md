@@ -3,7 +3,10 @@
 XEEDateManager
 ==============
 
-XEEDateManager is a class used to quickly generate descriptive string from a given date.
+XEEDateManager is a singleton class used to quickly generate descriptive string from a given date.
+
+It converts NSDate objects into strings such as: "2 days from now", "3 weeks ago", "2 minutes from now", "7 months ago".
+It uses XEEPluralizer for correct pluralization of words in various languages.
 
 
 Usage
