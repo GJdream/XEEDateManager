@@ -7,174 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7FFD9341855DD1E0020A2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9331855DD1E0020A2C4 /* Foundation.framework */; };
-		A7FFD9361855DD1E0020A2C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9351855DD1E0020A2C4 /* CoreGraphics.framework */; };
-		A7FFD9381855DD1E0020A2C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9371855DD1E0020A2C4 /* UIKit.framework */; };
-		A7FFD93E1855DD1E0020A2C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7FFD93C1855DD1E0020A2C4 /* InfoPlist.strings */; };
-		A7FFD9401855DD1E0020A2C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD93F1855DD1E0020A2C4 /* main.m */; };
-		A7FFD9441855DD1E0020A2C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD9431855DD1E0020A2C4 /* AppDelegate.m */; };
-		A7FFD94C1855DD1F0020A2C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FFD94B1855DD1F0020A2C4 /* Images.xcassets */; };
-		A7FFD9531855DD1F0020A2C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9521855DD1F0020A2C4 /* XCTest.framework */; };
-		A7FFD9541855DD1F0020A2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9331855DD1E0020A2C4 /* Foundation.framework */; };
-		A7FFD9551855DD1F0020A2C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9371855DD1E0020A2C4 /* UIKit.framework */; };
-		A7FFD95D1855DD1F0020A2C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7FFD95B1855DD1F0020A2C4 /* InfoPlist.strings */; };
-		A7FFD95F1855DD1F0020A2C4 /* XEEDateManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD95E1855DD1F0020A2C4 /* XEEDateManagerTests.m */; };
-		A7FFD96C1855DD920020A2C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD96A1855DD920020A2C4 /* ViewController.m */; };
+		A7FFD9FB1855F4520020A2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9FA1855F4520020A2C4 /* Foundation.framework */; };
+		A7FFDA001855F4520020A2C4 /* XEEDateManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7FFD9FF1855F4520020A2C4 /* XEEDateManager.h */; };
+		A7FFDA021855F4520020A2C4 /* XEEDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFDA011855F4520020A2C4 /* XEEDateManager.m */; };
+		A7FFDA091855F4520020A2C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFDA081855F4520020A2C4 /* XCTest.framework */; };
+		A7FFDA0A1855F4520020A2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9FA1855F4520020A2C4 /* Foundation.framework */; };
+		A7FFDA0C1855F4520020A2C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFDA0B1855F4520020A2C4 /* UIKit.framework */; };
+		A7FFDA0F1855F4520020A2C4 /* libXEEDateManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9F71855F4520020A2C4 /* libXEEDateManager.a */; };
+		A7FFDA151855F4520020A2C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7FFDA131855F4520020A2C4 /* InfoPlist.strings */; };
+		A7FFDA171855F4520020A2C4 /* XEEDateManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFDA161855F4520020A2C4 /* XEEDateManagerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7FFD9561855DD1F0020A2C4 /* PBXContainerItemProxy */ = {
+		A7FFDA0D1855F4520020A2C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A7FFD9281855DD1E0020A2C4 /* Project object */;
+			containerPortal = A7FFD9EF1855F4520020A2C4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A7FFD92F1855DD1E0020A2C4;
+			remoteGlobalIDString = A7FFD9F61855F4520020A2C4;
 			remoteInfo = XEEDateManager;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXFileReference section */
-		A7FFD9301855DD1E0020A2C4 /* XEEDateManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XEEDateManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7FFD9331855DD1E0020A2C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A7FFD9351855DD1E0020A2C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A7FFD9371855DD1E0020A2C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A7FFD93B1855DD1E0020A2C4 /* XEEDateManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XEEDateManager-Info.plist"; sourceTree = "<group>"; };
-		A7FFD93D1855DD1E0020A2C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A7FFD93F1855DD1E0020A2C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A7FFD9411855DD1E0020A2C4 /* XEEDateManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XEEDateManager-Prefix.pch"; sourceTree = "<group>"; };
-		A7FFD9421855DD1E0020A2C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A7FFD9431855DD1E0020A2C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7FFD94B1855DD1F0020A2C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A7FFD9511855DD1F0020A2C4 /* XEEDateManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XEEDateManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7FFD9521855DD1F0020A2C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A7FFD95A1855DD1F0020A2C4 /* XEEDateManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XEEDateManagerTests-Info.plist"; sourceTree = "<group>"; };
-		A7FFD95C1855DD1F0020A2C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A7FFD95E1855DD1F0020A2C4 /* XEEDateManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEEDateManagerTests.m; sourceTree = "<group>"; };
-		A7FFD9691855DD920020A2C4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A7FFD96A1855DD920020A2C4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		A7FFD92D1855DD1E0020A2C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
+/* Begin PBXCopyFilesBuildPhase section */
+		A7FFD9F51855F4520020A2C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
 			files = (
-				A7FFD9361855DD1E0020A2C4 /* CoreGraphics.framework in Frameworks */,
-				A7FFD9381855DD1E0020A2C4 /* UIKit.framework in Frameworks */,
-				A7FFD9341855DD1E0020A2C4 /* Foundation.framework in Frameworks */,
+				A7FFDA001855F4520020A2C4 /* XEEDateManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7FFD94E1855DD1F0020A2C4 /* Frameworks */ = {
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A7FFD9F71855F4520020A2C4 /* libXEEDateManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXEEDateManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FFD9FA1855F4520020A2C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7FFD9FE1855F4520020A2C4 /* XEEDateManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XEEDateManager-Prefix.pch"; sourceTree = "<group>"; };
+		A7FFD9FF1855F4520020A2C4 /* XEEDateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEEDateManager.h; sourceTree = "<group>"; };
+		A7FFDA011855F4520020A2C4 /* XEEDateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEEDateManager.m; sourceTree = "<group>"; };
+		A7FFDA071855F4520020A2C4 /* XEEDateManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XEEDateManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FFDA081855F4520020A2C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A7FFDA0B1855F4520020A2C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A7FFDA121855F4520020A2C4 /* XEEDateManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XEEDateManagerTests-Info.plist"; sourceTree = "<group>"; };
+		A7FFDA141855F4520020A2C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7FFDA161855F4520020A2C4 /* XEEDateManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEEDateManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FFD9F41855F4520020A2C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FFD9531855DD1F0020A2C4 /* XCTest.framework in Frameworks */,
-				A7FFD9551855DD1F0020A2C4 /* UIKit.framework in Frameworks */,
-				A7FFD9541855DD1F0020A2C4 /* Foundation.framework in Frameworks */,
+				A7FFD9FB1855F4520020A2C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FFDA041855F4520020A2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FFDA0F1855F4520020A2C4 /* libXEEDateManager.a in Frameworks */,
+				A7FFDA091855F4520020A2C4 /* XCTest.framework in Frameworks */,
+				A7FFDA0C1855F4520020A2C4 /* UIKit.framework in Frameworks */,
+				A7FFDA0A1855F4520020A2C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7FFD9271855DD1E0020A2C4 = {
+		A7FFD9EE1855F4520020A2C4 = {
 			isa = PBXGroup;
 			children = (
-				A7FFD9391855DD1E0020A2C4 /* XEEDateManager */,
-				A7FFD9581855DD1F0020A2C4 /* XEEDateManagerTests */,
-				A7FFD9321855DD1E0020A2C4 /* Frameworks */,
-				A7FFD9311855DD1E0020A2C4 /* Products */,
+				A7FFD9FC1855F4520020A2C4 /* XEEDateManager */,
+				A7FFDA101855F4520020A2C4 /* XEEDateManagerTests */,
+				A7FFD9F91855F4520020A2C4 /* Frameworks */,
+				A7FFD9F81855F4520020A2C4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A7FFD9311855DD1E0020A2C4 /* Products */ = {
+		A7FFD9F81855F4520020A2C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFD9301855DD1E0020A2C4 /* XEEDateManager.app */,
-				A7FFD9511855DD1F0020A2C4 /* XEEDateManagerTests.xctest */,
+				A7FFD9F71855F4520020A2C4 /* libXEEDateManager.a */,
+				A7FFDA071855F4520020A2C4 /* XEEDateManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7FFD9321855DD1E0020A2C4 /* Frameworks */ = {
+		A7FFD9F91855F4520020A2C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFD9331855DD1E0020A2C4 /* Foundation.framework */,
-				A7FFD9351855DD1E0020A2C4 /* CoreGraphics.framework */,
-				A7FFD9371855DD1E0020A2C4 /* UIKit.framework */,
-				A7FFD9521855DD1F0020A2C4 /* XCTest.framework */,
+				A7FFD9FA1855F4520020A2C4 /* Foundation.framework */,
+				A7FFDA081855F4520020A2C4 /* XCTest.framework */,
+				A7FFDA0B1855F4520020A2C4 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A7FFD9391855DD1E0020A2C4 /* XEEDateManager */ = {
+		A7FFD9FC1855F4520020A2C4 /* XEEDateManager */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFD96B1855DD920020A2C4 /* Utilities */,
-				A7FFD9681855DD920020A2C4 /* Controllers */,
-				A7FFD9421855DD1E0020A2C4 /* AppDelegate.h */,
-				A7FFD9431855DD1E0020A2C4 /* AppDelegate.m */,
-				A7FFD94B1855DD1F0020A2C4 /* Images.xcassets */,
-				A7FFD93A1855DD1E0020A2C4 /* Supporting Files */,
+				A7FFDA201855F49F0020A2C4 /* Library */,
+				A7FFD9FF1855F4520020A2C4 /* XEEDateManager.h */,
+				A7FFDA011855F4520020A2C4 /* XEEDateManager.m */,
+				A7FFD9FD1855F4520020A2C4 /* Supporting Files */,
 			);
 			path = XEEDateManager;
 			sourceTree = "<group>";
 		};
-		A7FFD93A1855DD1E0020A2C4 /* Supporting Files */ = {
+		A7FFD9FD1855F4520020A2C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFD93B1855DD1E0020A2C4 /* XEEDateManager-Info.plist */,
-				A7FFD93C1855DD1E0020A2C4 /* InfoPlist.strings */,
-				A7FFD93F1855DD1E0020A2C4 /* main.m */,
-				A7FFD9411855DD1E0020A2C4 /* XEEDateManager-Prefix.pch */,
+				A7FFD9FE1855F4520020A2C4 /* XEEDateManager-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7FFD9581855DD1F0020A2C4 /* XEEDateManagerTests */ = {
+		A7FFDA101855F4520020A2C4 /* XEEDateManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFD95E1855DD1F0020A2C4 /* XEEDateManagerTests.m */,
-				A7FFD9591855DD1F0020A2C4 /* Supporting Files */,
+				A7FFDA161855F4520020A2C4 /* XEEDateManagerTests.m */,
+				A7FFDA111855F4520020A2C4 /* Supporting Files */,
 			);
 			path = XEEDateManagerTests;
 			sourceTree = "<group>";
 		};
-		A7FFD9591855DD1F0020A2C4 /* Supporting Files */ = {
+		A7FFDA111855F4520020A2C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFD95A1855DD1F0020A2C4 /* XEEDateManagerTests-Info.plist */,
-				A7FFD95B1855DD1F0020A2C4 /* InfoPlist.strings */,
+				A7FFDA121855F4520020A2C4 /* XEEDateManagerTests-Info.plist */,
+				A7FFDA131855F4520020A2C4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7FFD9681855DD920020A2C4 /* Controllers */ = {
+		A7FFDA201855F49F0020A2C4 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFD9691855DD920020A2C4 /* ViewController.h */,
-				A7FFD96A1855DD920020A2C4 /* ViewController.m */,
+				A7FFDA211855F4DA0020A2C4 /* XEEPluralizer */,
 			);
-			path = Controllers;
+			path = Library;
 			sourceTree = "<group>";
 		};
-		A7FFD96B1855DD920020A2C4 /* Utilities */ = {
+		A7FFDA211855F4DA0020A2C4 /* XEEPluralizer */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Utilities;
+			path = XEEPluralizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7FFD92F1855DD1E0020A2C4 /* XEEDateManager */ = {
+		A7FFD9F61855F4520020A2C4 /* XEEDateManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7FFD9621855DD1F0020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManager" */;
+			buildConfigurationList = A7FFDA1A1855F4520020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManager" */;
 			buildPhases = (
-				A7FFD92C1855DD1E0020A2C4 /* Sources */,
-				A7FFD92D1855DD1E0020A2C4 /* Frameworks */,
-				A7FFD92E1855DD1E0020A2C4 /* Resources */,
+				A7FFD9F31855F4520020A2C4 /* Sources */,
+				A7FFD9F41855F4520020A2C4 /* Frameworks */,
+				A7FFD9F51855F4520020A2C4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -182,122 +176,97 @@
 			);
 			name = XEEDateManager;
 			productName = XEEDateManager;
-			productReference = A7FFD9301855DD1E0020A2C4 /* XEEDateManager.app */;
-			productType = "com.apple.product-type.application";
+			productReference = A7FFD9F71855F4520020A2C4 /* libXEEDateManager.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		A7FFD9501855DD1F0020A2C4 /* XEEDateManagerTests */ = {
+		A7FFDA061855F4520020A2C4 /* XEEDateManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7FFD9651855DD1F0020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManagerTests" */;
+			buildConfigurationList = A7FFDA1D1855F4520020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManagerTests" */;
 			buildPhases = (
-				A7FFD94D1855DD1F0020A2C4 /* Sources */,
-				A7FFD94E1855DD1F0020A2C4 /* Frameworks */,
-				A7FFD94F1855DD1F0020A2C4 /* Resources */,
+				A7FFDA031855F4520020A2C4 /* Sources */,
+				A7FFDA041855F4520020A2C4 /* Frameworks */,
+				A7FFDA051855F4520020A2C4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7FFD9571855DD1F0020A2C4 /* PBXTargetDependency */,
+				A7FFDA0E1855F4520020A2C4 /* PBXTargetDependency */,
 			);
 			name = XEEDateManagerTests;
 			productName = XEEDateManagerTests;
-			productReference = A7FFD9511855DD1F0020A2C4 /* XEEDateManagerTests.xctest */;
+			productReference = A7FFDA071855F4520020A2C4 /* XEEDateManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A7FFD9281855DD1E0020A2C4 /* Project object */ = {
+		A7FFD9EF1855F4520020A2C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "XEE Tech";
-				TargetAttributes = {
-					A7FFD9501855DD1F0020A2C4 = {
-						TestTargetID = A7FFD92F1855DD1E0020A2C4;
-					};
-				};
 			};
-			buildConfigurationList = A7FFD92B1855DD1E0020A2C4 /* Build configuration list for PBXProject "XEEDateManager" */;
+			buildConfigurationList = A7FFD9F21855F4520020A2C4 /* Build configuration list for PBXProject "XEEDateManager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = A7FFD9271855DD1E0020A2C4;
-			productRefGroup = A7FFD9311855DD1E0020A2C4 /* Products */;
+			mainGroup = A7FFD9EE1855F4520020A2C4;
+			productRefGroup = A7FFD9F81855F4520020A2C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7FFD92F1855DD1E0020A2C4 /* XEEDateManager */,
-				A7FFD9501855DD1F0020A2C4 /* XEEDateManagerTests */,
+				A7FFD9F61855F4520020A2C4 /* XEEDateManager */,
+				A7FFDA061855F4520020A2C4 /* XEEDateManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A7FFD92E1855DD1E0020A2C4 /* Resources */ = {
+		A7FFDA051855F4520020A2C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FFD94C1855DD1F0020A2C4 /* Images.xcassets in Resources */,
-				A7FFD93E1855DD1E0020A2C4 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7FFD94F1855DD1F0020A2C4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7FFD95D1855DD1F0020A2C4 /* InfoPlist.strings in Resources */,
+				A7FFDA151855F4520020A2C4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A7FFD92C1855DD1E0020A2C4 /* Sources */ = {
+		A7FFD9F31855F4520020A2C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FFD9441855DD1E0020A2C4 /* AppDelegate.m in Sources */,
-				A7FFD96C1855DD920020A2C4 /* ViewController.m in Sources */,
-				A7FFD9401855DD1E0020A2C4 /* main.m in Sources */,
+				A7FFDA021855F4520020A2C4 /* XEEDateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7FFD94D1855DD1F0020A2C4 /* Sources */ = {
+		A7FFDA031855F4520020A2C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FFD95F1855DD1F0020A2C4 /* XEEDateManagerTests.m in Sources */,
+				A7FFDA171855F4520020A2C4 /* XEEDateManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A7FFD9571855DD1F0020A2C4 /* PBXTargetDependency */ = {
+		A7FFDA0E1855F4520020A2C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7FFD92F1855DD1E0020A2C4 /* XEEDateManager */;
-			targetProxy = A7FFD9561855DD1F0020A2C4 /* PBXContainerItemProxy */;
+			target = A7FFD9F61855F4520020A2C4 /* XEEDateManager */;
+			targetProxy = A7FFDA0D1855F4520020A2C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A7FFD93C1855DD1E0020A2C4 /* InfoPlist.strings */ = {
+		A7FFDA131855F4520020A2C4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A7FFD93D1855DD1E0020A2C4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A7FFD95B1855DD1F0020A2C4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7FFD95C1855DD1F0020A2C4 /* en */,
+				A7FFDA141855F4520020A2C4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -305,7 +274,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A7FFD9601855DD1F0020A2C4 /* Debug */ = {
+		A7FFDA181855F4520020A2C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +291,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -338,13 +306,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		A7FFD9611855DD1F0020A2C4 /* Release */ = {
+		A7FFDA191855F4520020A2C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,7 +329,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -371,43 +338,40 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A7FFD9631855DD1F0020A2C4 /* Debug */ = {
+		A7FFDA1B1855F4520020A2C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DSTROOT = /tmp/XEEDateManager.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XEEDateManager/XEEDateManager-Prefix.pch";
-				INFOPLIST_FILE = "XEEDateManager/XEEDateManager-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A7FFD9641855DD1F0020A2C4 /* Release */ = {
+		A7FFDA1C1855F4520020A2C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DSTROOT = /tmp/XEEDateManager.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XEEDateManager/XEEDateManager-Prefix.pch";
-				INFOPLIST_FILE = "XEEDateManager/XEEDateManager-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		A7FFD9661855DD1F0020A2C4 /* Debug */ = {
+		A7FFDA1E1855F4520020A2C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XEEDateManager.app/XEEDateManager";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -421,16 +385,14 @@
 				);
 				INFOPLIST_FILE = "XEEDateManagerTests/XEEDateManagerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		A7FFD9671855DD1F0020A2C4 /* Release */ = {
+		A7FFDA1F1855F4520020A2C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XEEDateManager.app/XEEDateManager";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -440,7 +402,6 @@
 				GCC_PREFIX_HEADER = "XEEDateManager/XEEDateManager-Prefix.pch";
 				INFOPLIST_FILE = "XEEDateManagerTests/XEEDateManagerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -448,32 +409,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7FFD92B1855DD1E0020A2C4 /* Build configuration list for PBXProject "XEEDateManager" */ = {
+		A7FFD9F21855F4520020A2C4 /* Build configuration list for PBXProject "XEEDateManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7FFD9601855DD1F0020A2C4 /* Debug */,
-				A7FFD9611855DD1F0020A2C4 /* Release */,
+				A7FFDA181855F4520020A2C4 /* Debug */,
+				A7FFDA191855F4520020A2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7FFD9621855DD1F0020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManager" */ = {
+		A7FFDA1A1855F4520020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7FFD9631855DD1F0020A2C4 /* Debug */,
-				A7FFD9641855DD1F0020A2C4 /* Release */,
+				A7FFDA1B1855F4520020A2C4 /* Debug */,
+				A7FFDA1C1855F4520020A2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A7FFD9651855DD1F0020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManagerTests" */ = {
+		A7FFDA1D1855F4520020A2C4 /* Build configuration list for PBXNativeTarget "XEEDateManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7FFD9661855DD1F0020A2C4 /* Debug */,
-				A7FFD9671855DD1F0020A2C4 /* Release */,
+				A7FFDA1E1855F4520020A2C4 /* Debug */,
+				A7FFDA1F1855F4520020A2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A7FFD9281855DD1E0020A2C4 /* Project object */;
+	rootObject = A7FFD9EF1855F4520020A2C4 /* Project object */;
 }
