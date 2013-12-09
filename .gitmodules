@@ -1,0 +1,3 @@
+[submodule "XEEDateManager/XEEDateManager/Library/XEEPluralizer"]
+	path = XEEDateManager/XEEDateManager/Library/XEEPluralizer
+	url = https://github.com/XEEtech/XEEPluralizer.git

@@ -12,6 +12,8 @@
 	<dict>
 		<key>3E708FEA-AA11-42CF-8191-E193F35C82CF</key>
 		<string>https://github.com/XEEtech/XEEDateManager.git</string>
+		<key>DE1ECFCE-0122-4C89-AEFC-6CB2CA30509D</key>
+		<string>https://github.com/XEEtech/XEEPluralizer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>XEEDateManager/XEEDateManager.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>3E708FEA-AA11-42CF-8191-E193F35C82CF</key>
 		<string>../../..</string>
+		<key>DE1ECFCE-0122-4C89-AEFC-6CB2CA30509D</key>
+		<string>../../XEEDateManager/Library/XEEPluralizer</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/XEEtech/XEEDateManager.git</string>
@@ -35,6 +39,14 @@
 			<string>3E708FEA-AA11-42CF-8191-E193F35C82CF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>XEEDateManager</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE1ECFCE-0122-4C89-AEFC-6CB2CA30509D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XEEPluralizer</string>
 		</dict>
 	</array>
 </dict>

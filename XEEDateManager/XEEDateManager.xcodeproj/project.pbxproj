@@ -16,6 +16,7 @@
 		A7FFDA0F1855F4520020A2C4 /* libXEEDateManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD9F71855F4520020A2C4 /* libXEEDateManager.a */; };
 		A7FFDA151855F4520020A2C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7FFDA131855F4520020A2C4 /* InfoPlist.strings */; };
 		A7FFDA171855F4520020A2C4 /* XEEDateManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFDA161855F4520020A2C4 /* XEEDateManagerTests.m */; };
+		A7FFDA271855F5B40020A2C4 /* XEEPluralizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFDA261855F5B40020A2C4 /* XEEPluralizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A7FFDA121855F4520020A2C4 /* XEEDateManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XEEDateManagerTests-Info.plist"; sourceTree = "<group>"; };
 		A7FFDA141855F4520020A2C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7FFDA161855F4520020A2C4 /* XEEDateManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEEDateManagerTests.m; sourceTree = "<group>"; };
+		A7FFDA251855F5B40020A2C4 /* XEEPluralizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XEEPluralizer.h; path = XEEPluralizer/XEEPluralizer/XEEPluralizer.h; sourceTree = "<group>"; };
+		A7FFDA261855F5B40020A2C4 /* XEEPluralizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XEEPluralizer.m; path = XEEPluralizer/XEEPluralizer/XEEPluralizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 		A7FFDA211855F4DA0020A2C4 /* XEEPluralizer */ = {
 			isa = PBXGroup;
 			children = (
+				A7FFDA251855F5B40020A2C4 /* XEEPluralizer.h */,
+				A7FFDA261855F5B40020A2C4 /* XEEPluralizer.m */,
 			);
 			path = XEEPluralizer;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7FFDA271855F5B40020A2C4 /* XEEPluralizer.m in Sources */,
 				A7FFDA021855F4520020A2C4 /* XEEDateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
